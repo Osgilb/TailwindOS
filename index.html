@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>EmailOs</title>
+</head>
+<body class="bg-gray-100 h-screen flex items-center justify-center overflow-y-auto">
+    <div class="h-14 rounded-full bg-zinc-100/95 fixed bottom-8 p-4 px-6 hidden md:block text-zinc-700 ring-2 ring-offset-4 ring-zinc-200 z-10">
+        <ul class="flex gap-6">
+            <a href="./index.html" class="font-medium pointer-events-none">
+                <li>Mail</li>
+            </a>
+            <a href="./gallery@r.html" class="hover:text-zinc-900 transition-all">
+                <li>Gallery</li>
+            </a>
+            <a href="./login@r.html" class="hover:text-zinc-900 transition-all">
+                <li>Login</li>
+            </a>
+            <a href="./pricing@r.html" class="hover:text-zinc-900 transition-all">
+                <li>Pricing</li>
+            </a>
+            <a href="./product@r.html" class="hover:text-zinc-900 transition-all">
+                <li>Product</li>
+            </a>
+        </ul>
+    </div>
+    <div class="w-96 md:w-[700px] h-[700px] md:h-80 bg-white rounded-3xl shadow-md grid grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr_1.5fr] overflow-hidden">
+        <div class="bg-[url('/images/map.jpg')] bg-cover bg-no-repeat bg-center transform hover:scale-105 transition-all">&nbsp;</div>
+        <div class="p-8 space-y-8 md:space-y-0 md:flex-col md:flex md:justify-center md:items-center">
+            <div class="space-y-10">
+                <div class="space-y-3">
+                    <h1 class="text-3xl tracking-tighter font-semibold text-center md:text-left px-4 md:px-0">Get diet and fitness tips in your inbox</h1>
+                    <p class="text-zinc-600 text-center md:text-left px-4 md:px-0">Eat better and exercise better. sign up for the Diet&Fitness newsletter.</p>
+                </div>
+                <div>
+                    <form action="#" class="space-y-4 md:space-y-0 md:grid md:grid-cols-[2fr_1fr] md:gap-2">
+                        <input class="h-12 border border-zinc-400 w-full rounded-md px-4" type="text" placeholder="Email address">
+                        <button class="w-full bg-zinc-900 hover:bg-zinc-800 text-white rounded-md h-12">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

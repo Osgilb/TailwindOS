@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <title>ProductOs</title>
+    </head>
+
+    <body class="bg-zinc-100 flex items-center justify-center p-6">
+        <div class="h-14 rounded-full bg-zinc-100/95 fixed bottom-8 p-4 px-6 hidden lg:block text-zinc-700 ring-2 ring-offset-4 ring-zinc-200 z-10">
+            <ul class="flex gap-6">
+                <a href="./index.html" class="hover:text-zinc-900 transition-all">
+                    <li>Mail</li>
+                </a>
+                <a href="./gallery@r.html" class="hover:text-zinc-900 transition-all">
+                    <li>Gallery</li>
+                </a>
+                <a href="./login@r.html" class="hover:text-zinc-900 transition-all">
+                    <li>Login</li>
+                </a>
+                <a href="./pricing@r.html" class="hover:text-zinc-900 transition-all">
+                    <li>Pricing</li>
+                </a>
+                <a href="./product@r.html" class="font-medium pointer-events-none">
+                    <li>Product</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="lg:h-[700px] lg:w-[1100px] bg-white rounded-3xl grid lg:grid-cols-[1fr_1.2fr] overflow-hidden shadow-md">
+            <div class="h-[600px] lg:h-full grid grid-rows-[4fr_1fr]">
+                <div class="p-2">
+                    <div class="h-full w-full bg-[url('../images/headset.png')] bg-cover bg-center bg-no-repeat bg-zinc-100 rounded-2xl rounded-bl-none rounded-br-none">&nbsp;</div>
+                </div>
+                <div class="grid grid-cols-3 gap-2 p-2 pt-0">
+                    <div class="bg-gray-100 rounded-bl-2xl bg-[url('../images/headset2.webp')] bg-center bg-contain bg-no-repeat">&nbsp;</div>
+                    <div class="bg-gray-100 bg-[url('../images/headset3.webp')] bg-center bg-contain bg-no-repeat">&nbsp;</div>
+                    <div class="bg-gray-100 bg-[url('../images/headset4.png')] bg-center bg-contain bg-no-repeat">&nbsp;</div>
+                </div>
+            </div>
+            <div class="lg:p-12 p-10">
+                <div class="lg:flex lg:flex-col lg:justify-between lg:h-full space-y-16 lg:space-y-0">
+                    <div class="space-y-10">
+                        <div class="space-y-6">
+                            <div class="space-y-4">
+                                <p class="uppercase text-red-500 tracking-tight font-medium">Free shipping</p>
+                                <h2 class="text-3xl font-semibold tracking-tight">Sony WF-1000XM5 Black Gaming Headset</h2>
+                            </div>
+                            <div class="space-y-2">
+                                <h3 class="font-medium text-2xl flex gap-2 items-center">$599.99 <del class="text-zinc-400 text-xl font-normal">$899.99</del></h3>
+                                <p class="text-[14px] text-zinc-500">The offer is valid until <span class="font-semibold">Dec 24</span> or as long as stock last!</p>
+                            </div>
+                            <div class="space-y-3">
+                                <p class="text-zinc-900 tracking-tight">Space Gray</p>
+                                <div class="flex gap-2">
+                                    <div class="bg-zinc-900 ring-1 ring-offset-2 ring-zinc-900 h-6 w-6 rounded-full">&nbsp;</div>
+                                    <div class="bg-red-500 h-6 w-6 rounded-full">&nbsp;</div>
+                                    <div class="bg-zinc-300 h-6 w-6 rounded-full">&nbsp;</div>
+                                    <div class="bg-blue-600 h-6 w-6 rounded-full">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-[1fr_3fr] px-2 gap-2 rounded-md w-40 h-10 bg-zinc-100 overflow-hidden">
+                            <div class="flex items-center justify-center">
+                                <p class="text-zinc-500">Qty</p>
+                            </div>
+                            <div class="flex items-center justify-between p-2 gap-2 border-l border-zinc-300">
+                                <a href=""><i class="ph ph-minus"></i></a>
+                                <p>3</p>
+                                <a href=""><i class="ph ph-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex gap-2 items-center">
+                            <i class="ph-fill ph-circle text-emerald-500 text-xs"></i>
+                            <p class="text-zinc-500 tracking-tight">50+ pcs in stock</p>
+                        </div>
+                        <div class="grid lg:grid-cols-2 gap-4">
+                            <a class="group" href="#">
+                                <button class="xl:h-12 h-14 w-full border border-zinc-700 text-zinc-900 p-4 flex items-center justify-center rounded-md gap-2 group-hover:bg-red-500 group-hover:text-white group-hover:border-none"><i class="ph ph-heart"></i> Add to wishlist</button>
+                            </a>
+                            <a href="#" class="group">
+                                <button class="xl:h-12 h-14 w-full bg-zinc-900 text-white p-4 flex items-center justify-center rounded-md gap-2 group-hover:bg-zinc-800"><i class="ph ph-shopping-bag"></i> Add to cart</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
