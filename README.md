@@ -42,4 +42,4 @@ Here are the screenshots for each project:
 
 ## Credits
 - **Udemy Course**: [Tailwind CSS from Scratch](https://www.udemy.com/course/tailwind-from-scratch)
-- Special thanks to the course instructor for their guidance.
+- Special thanks to the course instructor **Brad Traversy**  for his guidance.
